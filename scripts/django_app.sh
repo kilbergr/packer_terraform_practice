@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Install pip
+sudo apt-get update
 sudo apt-get install python-pip -y
 
 # Set PATH so virtualenv can be found

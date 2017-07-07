@@ -54,7 +54,7 @@ resource "aws_security_group_rule" "all_egress" {
 # Create two instances both with same security group based off same ami
 # Create a new instance
 resource "aws_instance" "rebecca-1" {
-  ami           = "ami-02a3b57b"
+  ami           = "ami-dd4351a4"
   key_name      = "rebecca"
   instance_type = "t2.micro"
   security_groups = [
@@ -64,7 +64,7 @@ resource "aws_instance" "rebecca-1" {
 
 # Create a new instance
 resource "aws_instance" "rebecca-2" {
-  ami           = "ami-02a3b57b"
+  ami           = "ami-dd4351a4"
   key_name      = "rebecca"
   instance_type = "t2.micro"
   security_groups = [

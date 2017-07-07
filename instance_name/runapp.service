@@ -1,0 +1,10 @@
+[Unit]
+Description=My Django Python Script Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/ubuntu/instance_name/aws_project/bin/python /home/ubuntu/instance_name/manage.py runserver 0.0.0.0:8000
+
+[Install]
+WantedBy=multi-user.target

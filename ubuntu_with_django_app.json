@@ -21,7 +21,8 @@
     },
     {
       "type": "shell",
-      "script": "django_app.sh"
+      "scripts": ["scripts/django_app.sh", "scripts/enable_service.sh"],
+      "pause_before": "10s"
     }
   ]
 }
