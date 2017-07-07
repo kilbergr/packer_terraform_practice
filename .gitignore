@@ -99,3 +99,62 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+
+# TERRAFORM 
+*.dll
+*.exe
+.DS_Store
+example.tf
+terraform.tfplan
+terraform.tfstate
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+./*.tfstate
+.terraform/
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+*.iml
+
+website/vendor
+
+# Test exclusions
+!command/test-fixtures/**/*.tfstate
+!command/test-fixtures/**/.terraform/
+
+# PACKER 
+/bin
+/local
+/pkg
+/src
+/website/.sass-cache
+/website/build
+.DS_Store
+.vagrant
+.idea
+test/.env
+*~
+*.received.*
+
+website/.bundle
+website/vendor
+
+packer-test*.log
+
+*.received.txt
+*.received.json
+
+.idea/
+*.iml
